@@ -1,5 +1,5 @@
 import motor.motor_asyncio
-MONGO_DETAILS = "mongodb+srv://NIckNOah_157:NIckNOah_157@cluster0.3jbs7.mongodb.net/Brightny?retryWrites=true&w=majority&appName=Cluster0&ssl=false"
+MONGO_DETAILS = "mongodb+srv://NIckNOah_157:NIckNOah_157@cluster0.3jbs7.mongodb.net/Brightny?retryWrites=true&w=majority&appName=Cluster0&ssl=true"
 
 client = motor.motor_asyncio.AsyncIOMotorClient(MONGO_DETAILS)
 database = client.Brightny
