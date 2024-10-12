@@ -20,5 +20,6 @@ This project is a FastAPI-based CRUD (Create, Read, Update, Delete) API for mana
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/Allan2706/Assignment-Vodex.git
+cd Assignment-Vodex
+
