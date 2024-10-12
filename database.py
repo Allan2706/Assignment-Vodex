@@ -1,6 +1,7 @@
 import motor.motor_asyncio
 # mongodb+srv://NIckNOah_157:<db_password>@cluster0.3jbs7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-MONGO_DETAILS = "mongodb+srv://NIckNOah_157:NIckNOah_157@cluster0.3jbs7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0.mongodb.net/Brightny"  # Replace with your MongoDB URI
+MONGO_DETAILS = "mongodb+srv://NIckNOah_157:NIckNOah_157@cluster0.3jbs7.mongodb.net/Brightny?retryWrites=true&w=majority&appName=Cluster0&ssl=false"
+Replace with your MongoDB URI
 
 client = motor.motor_asyncio.AsyncIOMotorClient(MONGO_DETAILS)
 database = client.Brightny
